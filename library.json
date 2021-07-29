@@ -1,0 +1,17 @@
+{
+    "name": "SigV4-for-AWS-IoT-embedded-sdk",
+    "version": "0.0.0-1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/aws/SigV4-for-AWS-IoT-embedded-sdk.git"
+    },
+    "license": "MIT",
+    "export": {
+        "include": ["source/*"]
+    },
+    "build": {
+        "includeDir": "source/include",
+        "srcDir": "source",
+        "srcFilter": "+<*.c>"
+    }
+}
